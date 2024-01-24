@@ -8,6 +8,8 @@
          <choice>D. Toutes ces réponses</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
        <text>RNNs signifie____________ </text>
       <choices>
          <choice>A. Receives Neural Networks</choice>
@@ -16,6 +18,8 @@
          <choice>D. Recurrent Neural Networks</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
        <text>Laquelle/lesquelles des propositions suivantes est/sont des utilisations courantes des RNN ? </text>
       <choices>
          <choice>A. Fournir une description aux images</choice>
@@ -24,6 +28,8 @@
          <choice>D. Toutes ces réponses</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
        <text>Lequel des éléments suivants est bien adapté aux tâches perceptives ? </text>
       <choices>
          <choice>A. Reinforcement Learning</choice>
@@ -32,6 +38,8 @@
          <choice>D. Feed-forward neural networks</choice>
       </choices>
       <answer>B</answer>
+      </question>
+      <question>
        <text>CNN est surtout utilisé lorsqu’il y a ___________ </text>
       <choices>
          <choice>A. des données structurées</choice>
@@ -40,6 +48,8 @@
          <choice>D. Aucune de ces réponses</choice>
       </choices>
       <answer>B</answer>
+      </question>
+      <question>
       <text>Les algorithmes de Deep Learning sont _______ plus précis que les algorithmes du machine learning dans la classification des images.</text>
       <choices>
          <choice>A. 0.33</choice>
@@ -47,6 +57,8 @@
          <choice>C. 0.41</choice>
       </choices>
       <answer>C</answer>
+      </question>
+      <question>
       <text>Dans laquelle des applications suivantes peut-on utiliser Deep Learning pour résoudre le problème ?</text>
       <choices>
          <choice>A. Prédiction de la structure des protéines</choice>
@@ -55,6 +67,8 @@
          <choice>D. Toutes les réponses sont vraies</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>Le nombre de nœuds de la couche d’entrée est 10 et celui de la couche cachée est 5. Le nombre maximal de connexions de la couche d’entrée à la couche cachée est de ___</text>
       <choices>
          <choice>A. 50</choice>
@@ -63,6 +77,8 @@
          <choice>D. C’est une valeur arbitraire</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
       <text>Qu’est-ce que le Machine Learning ?</text>
       <choices>
          <choice>A. L’acquisition sélective de connaissances par l’utilisation de programmes manuels.</choice>
@@ -71,6 +87,8 @@
          <choice>D. L’acquisition autonome de connaissances par l’utilisation de programmes informatiques</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>Qu’est-ce que le Machine Learning ?</text>
       <choices>
          <choice>A. Le Machine Learning (ML) est un domaine de l’informatique.</choice>
@@ -79,6 +97,8 @@
          <choice>D. Toutes les réponses sont vraies</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>Identifiez le type d’algorithme d’apprentissage pour les « identités du visage pour les expressions faciales ».</text>
       <choices>
          <choice>A. Prédiction</choice>
@@ -87,6 +107,8 @@
          <choice>D. Génération de motifs</choice>
       </choices>
       <answer>B</answer>
+      </question>
+      <question>
       <text>Comment appelle-t-on l’application des méthodes de Machine Learning à une grande base de données?</text>
       <choices>
          <choice>A. Big data</choice>
@@ -95,6 +117,8 @@
          <choice>D. Internet des objets</choice>
       </choices>
       <answer>B</answer>
+      </question>
+      <question>
       <text>Les algorithmes de Machine Learning construisent un modèle à partir d’un ensemble de données, connues sous le nom de ___________</text>
       <choices>
          <choice>A. Données d’apprentissage</choice>
@@ -103,6 +127,8 @@
          <choice>D. Aucune de ces réponses</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
       <text>Le Machine Learning est un sous-ensemble de _____________</text>
       <choices>
          <choice>A. Big data</choice>
@@ -111,6 +137,8 @@
          <choice>D. Intelligence artificielle</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>Quels sont les trois types de Machine Learning ?</text>
       <choices>
          <choice>A. L’apprentissage supervisé</choice>
@@ -119,6 +147,8 @@
          <choice>D. Toutes les réponses sont vraies</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>A quoi correspond l’apprentissage profond ?</text>
       <choices>
          <choice>A. Au deep learning</choice>
@@ -126,6 +156,8 @@
          <choice>C. Le nom d'un micro processeur</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
       <text>D’où vient le terme "profond" de l’apprentissage profond ?</text>
       <choices>
          <choice>A. De l'importance de la phase d’apprentissage</choice>
@@ -133,6 +165,8 @@
          <choice>C. Du nom d'un informaticien de Stanford</choice>
       </choices>
       <answer>B</answer>
+      </question>
+      <question>
       <text>Parmi la liste suivante : quelle est la phase primordiale du Deep Learning ?</text>
       <choices>
          <choice>A. La phase de "croisière"</choice>
@@ -140,6 +174,8 @@
          <choice>C. La phase "d’apprentissage"</choice>
       </choices>
       <answer>C</answer>
+      </question>
+      <question>
       <text>Qu'est ce qu'Alpha GO ?</text>
       <choices>
          <choice>A. Un programme informatique qui a battu des champions du jeu de Go</choice>
@@ -147,6 +183,8 @@
          <choice>C. Le nom d'un informaticien majeur</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
       <text>Parmi la liste suivante : quelle est la phase primordiale du Deep Learning ?</text>
       <choices>
          <choice>A. La phase de "croisière"</choice>
@@ -154,6 +192,8 @@
          <choice>C. La phase "d’apprentissage"</choice>
       </choices>
       <answer>C</answer>
+      </question>
+      <question>
       <text>Qu'est ce qu'ImageNet ?</text>
       <choices>
          <choice>A. Une illustration</choice>
@@ -161,6 +201,8 @@
          <choice>C. Une base de données capitale dans le développement de la reconnaissance visuelle</choice>
       </choices>
       <answer>C</answer>
+      </question>
+      <question>
       <text>Un réseau de neurones peut être assimilé à </text>
       <choices>
          <choice>A. un hypercube</choice>
@@ -168,6 +210,8 @@
          <choice>C. une boîte noire</choice>
       </choices>
       <answer>C</answer>
+      </question>
+      <question>
       <text>Les réseaux de neurones sont utilisés en :</text>
       <choices>
          <choice>A. Datawarehouse</choice>
@@ -176,6 +220,8 @@
          <choice>D. Datamining</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>Parmi ces définitions, laquelle correspond au "réseau de neurones" ?</text>
       <choices>
          <choice>A. une représentation multidimensionnelle des données importantes</choice>
@@ -184,6 +230,8 @@
          <choice>D. un outil logique permettant de modéliser facilement un ensemble de choix d’une certaine complexité</choice>
       </choices>
       <answer>C</answer>
+      </question>
+      <question>
       <text>Python est un langage _______?</text>
       <choices>
          <choice>A. interprété</choice>
@@ -192,6 +240,8 @@
          <choice>D. binaire</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
       <text>Laquelle des fonctions suivantes convertit un « string » en « float » en python?</text>
       <choices>
          <choice>A. str(x)</choice>
@@ -200,6 +250,8 @@
          <choice>D. int(x [,base])</choice>
       </choices>
       <answer>B</answer>
+      </question>
+      <question>
       <text>En python 3, que fait l’opérateur // ?</text>
       <choices>
          <choice>A. Division entière</choice>
@@ -208,6 +260,8 @@
          <choice>D. idem a ** b</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
       <text>En Python, laquelle des fonctions suivantes vérifie dans une chaîne de caractères que tous les caractères sont des chiffres?</text>
       <choices>
          <choice>A. isdigit()</choice>
@@ -216,6 +270,8 @@
          <choice>D. shuffle(lst)</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
       <text>Quel est le type de données pour un caractère en python?</text>
       <choices>
          <choice>A. chr</choice>
@@ -224,6 +280,8 @@
          <choice>D. python ne possède aucun type de données pour les caractères, ils sont traités comme des chaînes de caractères (String)</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>Laquelle des fonctions suivantes renvoie le plus petit caractère de la chaîne str?</text>
       <choices>
          <choice>A. lower()</choice>
@@ -232,6 +290,8 @@
          <choice>D. min(str)</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>Quelle fonction est utilisée pour ouvrir le fichier en lecture en Python?</text>
       <choices>
          <choice>A. fopen(file_name, mode)</choice>
@@ -240,6 +300,8 @@
          <choice>D. open_file(file_name, mode)</choice>
       </choices>
       <answer>B</answer> 
+      </question>
+      <question>
       <text>En python, quel mot clé est utilisé pour commencer une fonction?</text>
       <choices>
          <choice>A. function</choice>
@@ -248,6 +310,8 @@
          <choice>D. import</choice>
       </choices>
       <answer>C</answer>
+      </question>
+      <question>
       <text>Lequel des opérateurs suivants en python est évalué à « true » s’il ne trouve pas de variable dans la séquence spécifiée sinon « false »?</text>
       <choices>
          <choice>A. **</choice>
@@ -256,6 +320,8 @@
          <choice>D. //</choice>
       </choices>
       <answer>C</answer>
+      </question>
+      <question>
        <text>Quelle fonction insère un objet à un index donné dans une liste?</text>
       <choices>
          <choice>A. list.index(obj)</choice>
@@ -264,6 +330,8 @@
          <choice>D. list.remove(obj)</choice>
       </choices>
       <answer>B</answer>
+      </question>
+      <question>
        <text>En python, quelle est la bonne méthode pour charger un module?</text>
       <choices>
          <choice>A. include math</choice>
@@ -272,6 +340,8 @@
          <choice>D. using math</choice>
       </choices>
       <answer>B</answer>
+      </question>
+      <question>
       <text>Qu’est-ce que l’intelligence artificielle ?</text>
       <choices>
          <choice>A. L’intelligence artificielle est un domaine qui vise à exploiter les données.</choice>
@@ -280,6 +350,8 @@
          <choice>D. L’intelligence artificielle est un domaine qui vise à rendre les humains plus intelligents.</choice>
       </choices>
       <answer>B</answer>
+      </question>
+      <question>
       <text>Lequel des éléments suivants est une branche de l’intelligence artificielle ?</text>
       <choices>
          <choice>A. Machine Learning</choice>
@@ -288,6 +360,8 @@
          <choice>D. Networking</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
       <text>Lequel des éléments suivants n’est pas une application de l’intelligence artificielle ?</text>
       <choices>
          <choice>A. Computer Vision</choice>
@@ -296,6 +370,8 @@
          <choice>D. Assistant Digital</choice>
       </choices>
       <answer>C</answer>
+      </question>
+      <question>
       <text>Laquelle des machines suivantes nécessite des entrées de la part des humains mais peut interpréter elle-même les sorties ?</text>
       <choices>
          <choice>A. Actionneurs</choice>
@@ -304,6 +380,8 @@
          <choice>D. Système d’intelligence artificielle</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>L’intelligence artificielle, c’est à peu près comme _____.</text>
       <choices>
          <choice>A. Jouer à un jeu sur ordinateur</choice>
@@ -312,6 +390,8 @@
          <choice>D. Mettre son intelligence dans une machine</choice>
       </choices>
       <answer>B</answer>
+      </question>
+      <question>
       <text>Si un robot est capable de modifier sa propre trajectoire en fonction des conditions extérieures, alors le robot est considéré comme __.</text>
       <choices>
          <choice>A. Mobile</choice>
@@ -320,6 +400,8 @@
          <choice>D. Intelligent</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>Quelle technique d’IA permet aux ordinateurs de comprendre les associations et les relations entre les objets et les événements ?</text>
       <choices>
          <choice>A. Traitement heuristique</choice>
@@ -328,6 +410,8 @@
          <choice>D. Pattern Matching</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>Quelle est la commande git qui télécharge votre référentiel de GitHub sur votre ordinateur?</text>
       <choices>
          <choice>A. $ git push</choice>
@@ -336,6 +420,8 @@
          <choice>D. $ git clone</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>Quelle commande est utilisé pour transférer votre code et vos modifications dans GitHub?</text>
       <choices>
          <choice>A. $ git add</choice>
@@ -344,6 +430,8 @@
          <choice>D. $ git status</choice>
       </choices>
       <answer>C</answer>
+      </question>
+      <question>
       <text>Comment initialiser le dépôt local avec git?</text>
       <choices>
          <choice>A. $ git start</choice>
@@ -352,6 +440,8 @@
          <choice>D. $ git clean</choice>
       </choices>
       <answer>B</answer>
+      </question>
+      <question>
       <text>Comment vérifier l’état de votre référentiel local depuis votre dernier commit?</text>
       <choices>
          <choice>A. $ git check</choice>
@@ -360,6 +450,8 @@
          <choice>D. $ git status</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>Comment ajouter des fichiers à un commit?</text>
       <choices>
          <choice>A. $ git stage</choice>
@@ -368,6 +460,8 @@
          <choice>D. $ git reset</choice>
       </choices>
       <answer>C</answer>
+      </question>
+      <question>
       <text>Comment enregistrer l’état actuel de votre code dans git?</text>
       <choices>
          <choice>A. En validant les modifications mises en scène avec $ git commit</choice>
@@ -375,6 +469,8 @@
          <choice>C. En ajoutant toutes les modifications et en les organisant avec $ git add</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
       <text>Quel raccourci pour mettre en scène tous les changements que vous avez?</text>
       <choices>
          <choice>A. $ git push -am « Message »</choice>
@@ -383,6 +479,8 @@
          <choice>D. $ git add .</choice>
       </choices>
       <answer>C</answer>
+      </question>
+      <question>
       <text>Comment ajouter un message à un commit?</text>
       <choices>
          <choice>A. $ git message "Fix error in xxxx"</choice>
@@ -391,18 +489,24 @@
          <choice>D. $ git commit -m "Fix error in xxxx"</choice>
       </choices>
       <answer>D</answer>
+      </question>
+      <question>
       <text>Ce qui vient en premier _____?</text>
       <choices>
          <choice>A. $ git add</choice>
          <choice>B. $ git commit</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
       <text>Vous pouvez taper « git status » à tout moment dans un répertoire contrôlé par git pour vérifier le statut de vos fichiers.</text>
       <choices>
          <choice>A. Vrai</choice>
          <choice>B. Faux</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
       <text>Nous venons de créer un nouveau fichier appelé « home.html ». Lequel des éléments suivants ajoutera ce fichier afin que nous puissions le commiter dans git?</text>
       <choices>
          <choice>A. $ git add home.html</choice>
@@ -411,6 +515,8 @@
          <choice>D. $ git git commit home.html</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
       <text>Quelle commande pour retourner à la branche principale?</text>
       <choices>
          <choice>A. $ git checkout origin</choice>
@@ -419,6 +525,8 @@
          <choice>D. $ git checkout branche</choice>
       </choices>
       <answer>C</answer>
+      </question>
+      <question>
       <text>Quelle commande pour annuler un commit?</text>
       <choices>
          <choice>A. $ git reset commit</choice>
@@ -427,6 +535,8 @@
          <choice>D. $ git init</choice>
       </choices>
       <answer>B</answer>
+      </question>
+      <question>
       <text>Quelle commande pour annuler définitivement un commit?</text>
       <choices>
          <choice>A. $ git reset commit</choice>
@@ -435,6 +545,8 @@
          <choice>D. $ git init</choice>
       </choices>
       <answer>A</answer>
+      </question>
+      <question>
       <text>Comment créer une nouvelle branche et y basculer directement?</text>
       <choices>
          <choice>A. $ git checkout branch-name</choice>
@@ -442,7 +554,8 @@
          <choice>C. $ git checkout -b branch-name</choice>
          <choice>D. $ git branch -new branch-name</choice>
       </choices>
-      <answer>D</answer>    
-   </question>
+      <answer>D</answer> 
+      </question>   
+  
    
 </questions>
