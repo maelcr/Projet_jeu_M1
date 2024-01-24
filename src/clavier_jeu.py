@@ -1,4 +1,4 @@
-import clavier
+"""import clavier
 
 
 def listen_keyboard():
@@ -16,7 +16,7 @@ def listen_keyboard():
 def listen_keyboard():
     if clavier.is_pressed("UP"):
         return "UP"
-
+"""
 
 
 import keyboard
@@ -36,9 +36,8 @@ def handle_key_press(key, action):
     while keyboard.is_pressed(key):
         time.sleep(0.01)  # Adjust the delay as needed
 
-# Your initialization code for game or other variables here
-current_position = 0
 
+"""
 while True:
     if keyboard.is_pressed("LEFT"):
         handle_key_press("LEFT", "L")
@@ -70,6 +69,5 @@ while True:
 
     # Add a delay to avoid constant checking (adjust as needed)
     time.sleep(0.1)
-
-
+"""
 

@@ -1,9 +1,9 @@
 class Player:
     def __init__(self, x, y, health, resources):
-        self.x = x
-        self.y = y
-        self.health = health
-        self.resources = resources
+        self.x = 3
+        self.y = 13
+        self.health = 3
+        self.resources = 0
 
     def move(self, dx, dy):
         """Move the player by the specified delta in x and y."""
@@ -18,9 +18,12 @@ class Player:
         """Update the player's resources by the specified amount."""
         self.resources += delta_resources
 
+    
 
 player = Player(x=0, y=0, health=100, resources=50)
 
+
+"""
 print(f"Initial Position: ({player.x}, {player.y})")
 print(f"Initial Health: {player.health}")
 print(f"Initial Resources: {player.resources}")
@@ -33,3 +36,4 @@ print(f"Updated Health: {player.health}")
 
 player.update_resources(30)
 print(f"Updated Resources: {player.resources}")
+"""
