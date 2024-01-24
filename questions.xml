@@ -421,26 +421,26 @@
       <answer>C</answer>
       <text>Quelle commande pour annuler un commit?</text>
       <choices>
-         <choice>A. $ git reset <commit></choice>
-         <choice>B. $ git revert <commit></choice>
+         <choice>A. $ git reset commit</choice>
+         <choice>B. $ git revert commit</choice>
          <choice>C. $ git reset --hard origin/master</choice>
          <choice>D. $ git init</choice>
       </choices>
       <answer>B</answer>
       <text>Quelle commande pour annuler définitivement un commit?</text>
       <choices>
-         <choice>A. $ git reset <commit></choice>
-         <choice>B. $ git revert <commit></choice>
+         <choice>A. $ git reset commit</choice>
+         <choice>B. $ git revert commit</choice>
          <choice>C. $ git reset --hard origin/master</choice>
          <choice>D. $ git init</choice>
       </choices>
       <answer>A</answer>
       <text>Comment créer une nouvelle branche et y basculer directement?</text>
       <choices>
-         <choice>A. $ git checkout <branch-name></choice>
-         <choice>B. $ git branch <branch-name></choice>
-         <choice>C. $ git checkout -b <branch-name></choice>
-         <choice>D. $ git branch -new <branch-name></choice>
+         <choice>A. $ git checkout branch-name</choice>
+         <choice>B. $ git branch branch-nam</choice>
+         <choice>C. $ git checkout -b branch-name</choice>
+         <choice>D. $ git branch -new branch-name</choice>
       </choices>
       <answer>D</answer>    
    </question>
