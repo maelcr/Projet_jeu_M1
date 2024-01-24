@@ -14,4 +14,4 @@ M (chr(77)) = 9, marchand, ne peux pas être traverser, si le joueur essaye de t
  (chr(14)) = 13, le sphinx, ne peux pas être traverser, si le joueur essaye de traverser le sphinx une boite de dialogue s'ouvre et les énigmes du sphinx commence
  (chr(15)) = 14, un piege, traversable. si le joueur traverse un piege il perd un point de vie, puis le piege est remplacer par une case vide
  (chr(19)) = 15, un piege mortel !, traversable. si le joueur traverse un piege mortel il meurt et la partie est fini
- (chr(23) = entrée de grotte/donjon, traversable, si le joueur traverse l'entrée il est teleporter sur une nouvelle carte
+ (chr(23) = 16, entrée de grotte/donjon, traversable, si le joueur traverse l'entrée il est teleporter sur une nouvelle carte
