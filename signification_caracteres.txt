@@ -1,0 +1,17 @@
+. (chr(46)) = 0, case vide, traversable
+@ (chr(64)) = 1, mur, ne peux pas être traverser
+ (chr(21)) = 2, porte fermer, ne peux pas être traverser. Si le joueur fait un mouvement dans la porte. Une question lui est poser. Si il repond bien, la case porte fermer est remplacer par porte ouverte
+/ (chr(47)) = 3, porte ouverte, traversable
+ (chr(27)) = 4, barriere gauche, ne peux être traverser que dans une sens.
+ (chr(26)) = 5, barriere droit, ne peux être traverser que dans une sens.
+ (chr(25)) = 6, barriere bas, ne peux être traverser que dans une sens.
+ (chr(24)) = 7, barriere haut, ne peux être traverser que dans une sens.
+$ (chr(36)) = 8, trésors, traversable, si le joueur le traverse, le trésors disparait et ait remplacer par une casse vide. Le joueur gagne alors une richesse qu'il peut echanger à un marchand
+M (chr(77)) = 9, marchand, ne peux pas être traverser, si le joueur essaye de traverser le marchad une boite de dialogue s'ouvre avec des options d'achat (échange richesses contre bonus)
+ (chr(20)) = 10, aubergiste, ne peux pas être traverser, permet au joueur de se reposer et regagner des points de vie
+! (chr(33)) = 11, une personne, ne peux pas être traverser, si le joueur essaye de traverser une personne une boite de dialogue s'ouvre et donne des informations ou des énigmes au joueur au joueur
+? (chr(63)) = 12, un panneau, ne peux pas être traverser, si le joueur essaye de traverser un panneau une boite de dialogue s'ouvre et donne des informations au joueur
+ (chr(14)) = 13, le sphinx, ne peux pas être traverser, si le joueur essaye de traverser le sphinx une boite de dialogue s'ouvre et les énigmes du sphinx commence
+ (chr(15)) = 14, un piege, traversable. si le joueur traverse un piege il perd un point de vie, puis le piege est remplacer par une case vide
+ (chr(19)) = 15, un piege mortel !, traversable. si le joueur traverse un piege mortel il meurt et la partie est fini
+ (chr(23) = entrée de grotte/donjon, traversable, si le joueur traverse l'entrée il est teleporter sur une nouvelle carte
