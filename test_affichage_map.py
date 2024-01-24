@@ -71,3 +71,4 @@ for i in range(len(map)): #iterate over rows
     map_a_print+="\n"
 
 print(map_a_print)
+print(2)
