@@ -2,13 +2,35 @@ import pandas as pd
 import numpy as np
 import scipy as sp
 import matplotlib.pylab as mp
+import csv
 
-map= pd.read_csv("map1.csv")
+csv_file_path = 'map1.csv'
+
+with open(csv_file_path, 'r') as file:
+    csv_reader = csv.reader(file)
+    map = []
+    for row in csv_reader:
+        map.append(row[0].split(';'))
+
+"""
+for row in map:
+    print(row)
+"""
 map_a_print=""
+
+#map= pd.read_csv("map_test.csv")
+
 #for col in map.columns:
-for index, row in map.iterrows():
-    for element in row:
-        tuille=element
+#for index, row in map.iterrows():
+#    for element in row:
+
+for i in range(len(map)): #iterate over rows
+    for j in range(len(map[i])): #iterate over columns
+
+#for rowIndex, row in map.iterrows(): #iterate over rows
+#    for columnIndex, value in row.items():
+        tuille = map[i][j]
+
         if(tuille=="0"):    
                 map_a_print+=(chr(46))
         elif(tuille=="1"):    
