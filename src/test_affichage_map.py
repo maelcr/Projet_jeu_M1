@@ -20,15 +20,19 @@ def affichage_map(map, joueur):
                                 map_a_print+=(chr(35))
                         else :
                                 tuille = map[i][j]
-                                if(tuille=="0"):    
+                                if(tuille=="0"):  
+                                        map_a_print+=Fore.WHITE  
                                         map_a_print+=(chr(46))
+                                        map_a_print+=Style.RESET_ALL
                                 elif(tuille=="1"):    
                                         map_a_print+=Fore.RED 
                                         map_a_print+=Back.GREEN 
                                         map_a_print+=(chr(64))
                                         map_a_print+=Style.RESET_ALL
-                                elif(tuille=="2"):    
+                                elif(tuille=="2"):  
+                                        map_a_print+=Fore.BLUE  
                                         map_a_print+=(chr(21))
+                                        map_a_print+=Style.RESET_ALL
                                 elif(tuille=="3"):    
                                         map_a_print+=(chr(47))
                                 elif(tuille=="4"):    
@@ -39,8 +43,10 @@ def affichage_map(map, joueur):
                                         map_a_print+=(chr(25))
                                 elif(tuille=="7"):    
                                         map_a_print+=(chr(24))
-                                elif(tuille=="8"):    
+                                elif(tuille=="8"):
+                                        map_a_print+=Fore.YELLOW    
                                         map_a_print+=(chr(36))
+                                        map_a_print+=Style.RESET_ALL
                                 elif(tuille=="9"):    
                                         map_a_print+=(chr(77))
                                 elif(tuille=="10"):    
@@ -51,10 +57,15 @@ def affichage_map(map, joueur):
                                         map_a_print+=(chr(63))
                                 elif(tuille=="13"):    
                                         map_a_print+=(chr(14))
-                                elif(tuille=="14"):    
+                                elif(tuille=="14"):
+                                        map_a_print+=Fore.RED    
                                         map_a_print+=(chr(15))
-                                elif(tuille=="15"):    
+                                        map_a_print+=Style.RESET_ALL
+                                elif(tuille=="15"): 
+                                        map_a_print+=Fore.WHITE 
+                                        map_a_print+=Back.BLACK  
                                         map_a_print+=(chr(19))
+                                        map_a_print+=Style.RESET_ALL
                                 elif(tuille=="16"):    
                                         map_a_print+=(chr(23))
                                 else:
