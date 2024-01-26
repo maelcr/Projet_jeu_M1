@@ -1,9 +1,9 @@
 class Player:
     def __init__(self, x, y, health, resources):
-        self.x = 3
-        self.y = 13
-        self.health = 3
-        self.resources = 0
+        self.x = x
+        self.y = y
+        self.health = health
+        self.resources = resources
 
     def move(self, dx, dy):
         """Move the player by the specified delta in x and y."""

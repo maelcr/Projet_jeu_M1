@@ -1,16 +1,20 @@
 from test_affichage_map import affichage_map
 from clavier_jeu import *
 from person import Player
+from import_map_csv import lire_map_depuis_doc
 
 
-joueur=Player(0, 0, 3, 0)
+joueur=Player(3, 12, 3, 0)
+
+map=lire_map_depuis_doc()
+
 
 while True:
     if keyboard.is_pressed("LEFT"):
         handle_key_press("LEFT", "L")
         joueur.move(-1, 0)
         os.system('cls')
-        affichage_map(joueur)
+        affichage_map(map, joueur)
         while keyboard.is_pressed("LEFT"):
             time.sleep(0.01)
 
@@ -18,7 +22,7 @@ while True:
         handle_key_press("RIGHT", "R")
         joueur.move(+1, 0)
         os.system('cls')
-        affichage_map(joueur)
+        affichage_map(map, joueur)
         while keyboard.is_pressed("RIGHT"):
             time.sleep(0.01)
 
@@ -26,7 +30,7 @@ while True:
         handle_key_press("UP", "U")
         joueur.move(0, +1)
         os.system('cls')
-        affichage_map(joueur)
+        affichage_map(map, joueur)
         while keyboard.is_pressed("UP"):
             time.sleep(0.01)
 
@@ -34,7 +38,7 @@ while True:
         handle_key_press("DOWN", "D")
         joueur.move(0, -1)
         os.system('cls')
-        affichage_map(joueur)
+        affichage_map(map, joueur)
         while keyboard.is_pressed("DOWN"):
             time.sleep(0.01)
 
@@ -42,7 +46,7 @@ while True:
         handle_key_press("A", "Function A")
         #current_position = 0  # Reset the position
         while keyboard.is_pressed("A"):
-            time.sleep(0.01)
+            time.sleep(0.1)
 
     # Add a delay to avoid constant checking (adjust as needed)
     time.sleep(0.1)

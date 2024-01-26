@@ -2,25 +2,15 @@ import pandas as pd
 import numpy as np
 import scipy as sp
 import matplotlib.pylab as mp
-import csv
 from person import Player
+import os
 
-def affichage_map(joueur):
-
-        csv_file_path = 'src\map1.csv'
-
-        with open(csv_file_path, 'r') as file:
-                csv_reader = csv.reader(file)
-                map = []
-                for row in csv_reader:
-                       map.append(row[0].split(';'))
+def affichage_map(map, joueur):
 
         map_a_print=""
         x_position_joueur=joueur.x
         y_position_joueur=joueur.y
 
-        #x_position_joueur=11
-        #y_position_joueur=11
 
         for i in range(len(map)):
                 for j in range(len(map[i])): 
@@ -68,4 +58,6 @@ def affichage_map(joueur):
 
                 map_a_print+="\n"
 
-                print(map_a_print)
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print(chr(27) + "[2J")
+        print(map_a_print)
