@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import scipy as sp
 import matplotlib.pylab as mp
-from person import Player
+from src.person import Player
 import os
 
 def affichage_map(map, joueur):
@@ -55,6 +55,15 @@ def affichage_map(map, joueur):
                                         map_a_print+=(chr(23))
                                 else:
                                         map_a_print+="-"
+
+                if(i== 1):
+                        map_a_print+="      position x :"+str(joueur.x)
+                elif(i== 3):
+                        map_a_print+="      position y :"+str(joueur.y)
+                elif(i== 5):
+                        map_a_print+="      santé du personange :"+str(joueur.health)
+                elif(i== 7):
+                        map_a_print+="      richesse du personnage :"+str(joueur.resources)
 
                 map_a_print+="\n"
 

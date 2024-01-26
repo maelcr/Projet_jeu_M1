@@ -18,9 +18,18 @@ class Player:
         """Update the player's resources by the specified amount."""
         self.resources += delta_resources
 
+    def get_position_x(self):
+        return self.x
+    def get_position_y(self):
+        return self.y
+    def get_health(self):
+        return self.health
+    def get_ressource(self):
+        return self.resources
+
     
 
-player = Player(x=0, y=0, health=100, resources=50)
+#player = Player(x=0, y=0, health=100, resources=50)
 
 
 """
