@@ -1,5 +1,6 @@
 import xml.etree.ElementTree as ET
 import random
+import time
 
 class Quiz:
     def __init__(self, nom_fichier):
@@ -45,13 +46,10 @@ class Quiz:
 
         if self.verifier_reponse(choix_utilisateur):
             print("Correct !")
+            time.sleep(1)
             return 1
         else:
             print(f"Faux. La réponse correcte est le choix {self.question_choisie.find('answer').text}.")
+            time.sleep(1)
             return 0
 
-
-if __name__ == "__main__":
-    fichier_xml = "questions.xml"
-    quiz = Quiz(fichier_xml)
-    quiz.jouer()

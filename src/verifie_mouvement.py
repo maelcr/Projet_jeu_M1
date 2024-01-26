@@ -16,6 +16,7 @@ from src.Sphinx import Sphinx
 from src.Piege import Piege
 from src.PiegeMortel import PiegeMortel
 from src.EntreeGrotte import EntreeGrotte
+from src.quiz import Quiz
 
 def verifie_mouvement(map, joueur, direction):
 
@@ -72,6 +73,8 @@ def verifie_mouvement(map, joueur, direction):
         if(case.traversable(joueur)==1):
             traversable=1
 
-
+        if(case.enigme()==1):
+            question=Quiz("src/questions.xml")
+            question.jouer()
 
     return map, traversable
