@@ -23,15 +23,15 @@ def verifie_mouvement(map, joueur, direction):
     y_position_joueur=joueur.y
 
     
-    if not (map[x_position_joueur][y_position_joueur]==direction+4):
+    if not (map[y_position_joueur][x_position_joueur]==direction+4):
         if(direction==0):
-            tuille = map[x_position_joueur-1][y_position_joueur]
+            tuille = map[y_position_joueur][x_position_joueur-1]
         if(direction==1):
-            tuille = map[x_position_joueur+1][y_position_joueur]
+            tuille = map[y_position_joueur][x_position_joueur+1]
         if(direction==2):
-            tuille = map[x_position_joueur][y_position_joueur-1]
+            tuille = map[y_position_joueur-1][x_position_joueur]
         if(direction==3):
-            tuille = map[x_position_joueur][y_position_joueur+1]
+            tuille = map[y_position_joueur+1][x_position_joueur]
 
         if(tuille=="0"):    
             case=CaseVide()
