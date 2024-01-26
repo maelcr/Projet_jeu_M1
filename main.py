@@ -2,6 +2,7 @@ from src.test_affichage_map import affichage_map
 from src.clavier_jeu import *
 from src.person import Player
 from src.import_map_csv import lire_map_depuis_doc
+from src.verifie_mouvement import verifie_mouvement
 #######################################################################
 #PENSER A IMPORTER COLORAMA POUR METTRES CERTAIN CARACTERE EN COULEUR
 #######################################################################
@@ -14,7 +15,9 @@ map=lire_map_depuis_doc()
 while True:
     if keyboard.is_pressed("LEFT"):
         handle_key_press("LEFT", "L")
-        joueur.move(-1, 0)
+        map, traversable=verifie_mouvement(map, joueur, 0)
+        if(traversable==1):
+            joueur.move(-1, 0)
         os.system('cls')
         affichage_map(map, joueur)
         while keyboard.is_pressed("LEFT"):
@@ -22,7 +25,9 @@ while True:
 
     elif keyboard.is_pressed("RIGHT"):
         handle_key_press("RIGHT", "R")
-        joueur.move(+1, 0)
+        map, traversable=verifie_mouvement(map, joueur, 1)
+        if(traversable==1):
+            joueur.move(+1, 0)
         os.system('cls')
         affichage_map(map, joueur)
         while keyboard.is_pressed("RIGHT"):
@@ -30,7 +35,9 @@ while True:
 
     elif keyboard.is_pressed("UP"):
         handle_key_press("UP", "U")
-        joueur.move(0, -1)
+        map, traversable=verifie_mouvement(map, joueur, 2)
+        if(traversable==1):
+            joueur.move(0, -1)
         os.system('cls')
         affichage_map(map, joueur)
         while keyboard.is_pressed("UP"):
@@ -38,7 +45,9 @@ while True:
 
     elif keyboard.is_pressed("DOWN"):
         handle_key_press("DOWN", "D")
-        joueur.move(0, +1)
+        map, traversable=verifie_mouvement(map, joueur, 3)
+        if(traversable==1):
+            joueur.move(0, +1)
         os.system('cls')
         affichage_map(map, joueur)
         while keyboard.is_pressed("DOWN"):

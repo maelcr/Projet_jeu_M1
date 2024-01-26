@@ -1,4 +1,4 @@
-from Caractere import Caractere
+from src.Caractere import Caractere
 
 class Sphinx(Caractere):
     def __init__(self):
