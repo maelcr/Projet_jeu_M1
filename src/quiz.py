@@ -45,8 +45,10 @@ class Quiz:
 
         if self.verifier_reponse(choix_utilisateur):
             print("Correct !")
+            return 1
         else:
             print(f"Faux. La réponse correcte est le choix {self.question_choisie.find('answer').text}.")
+            return 0
 
 
 if __name__ == "__main__":
