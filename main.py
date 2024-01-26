@@ -35,7 +35,7 @@ while True:
 
     elif keyboard.is_pressed("UP"):
         handle_key_press("UP", "U")
-        map, traversable=verifie_mouvement(map, joueur, 2)
+        map, traversable=verifie_mouvement(map, joueur, 3)
         if(traversable==1):
             joueur.move(0, -1)
         os.system('cls')
@@ -45,7 +45,7 @@ while True:
 
     elif keyboard.is_pressed("DOWN"):
         handle_key_press("DOWN", "D")
-        map, traversable=verifie_mouvement(map, joueur, 3)
+        map, traversable=verifie_mouvement(map, joueur, 2)
         if(traversable==1):
             joueur.move(0, +1)
         os.system('cls')

@@ -23,15 +23,27 @@ def verifie_mouvement(map, joueur, direction):
     x_position_joueur=joueur.x
     y_position_joueur=joueur.y
 
+    peux_bouger=1
+    traversable=0
+    if(map[y_position_joueur][x_position_joueur]=="4" or map[y_position_joueur][x_position_joueur]=="5" or map[y_position_joueur][x_position_joueur]=="6" or map[y_position_joueur][x_position_joueur]=="7" ):
+        if(map[y_position_joueur][x_position_joueur]=="4" and direction!=0):
+            peux_bouger=0
+        if(map[y_position_joueur][x_position_joueur]=="5" and direction!=1):
+            peux_bouger=0
+        if(map[y_position_joueur][x_position_joueur]=="6" and direction!=2):
+            peux_bouger=0
+        if(map[y_position_joueur][x_position_joueur]=="7" and direction!=3):
+            peux_bouger=0
+
     
-    if not (map[y_position_joueur][x_position_joueur]==direction+4):
+    if (peux_bouger==1):
         if(direction==0):
             tuille = map[y_position_joueur][x_position_joueur-1]
         if(direction==1):
             tuille = map[y_position_joueur][x_position_joueur+1]
-        if(direction==2):
-            tuille = map[y_position_joueur-1][x_position_joueur]
         if(direction==3):
+            tuille = map[y_position_joueur-1][x_position_joueur]
+        if(direction==2):
             tuille = map[y_position_joueur+1][x_position_joueur]
 
         if(tuille=="0"):    
@@ -75,6 +87,15 @@ def verifie_mouvement(map, joueur, direction):
 
         if(case.enigme()==1):
             question=Quiz("src/questions.xml")
-            question.jouer()
+            ouverture_porte=question.jouer()
+            if(ouverture_porte==1):
+                if(direction==0):
+                    map[y_position_joueur][x_position_joueur-1]="3"
+                if(direction==1):
+                    map[y_position_joueur][x_position_joueur+1]="3"
+                if(direction==3):
+                    map[y_position_joueur-1][x_position_joueur]="3"
+                if(direction==2):
+                    map[y_position_joueur+1][x_position_joueur]="3"
 
     return map, traversable
