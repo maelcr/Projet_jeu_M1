@@ -13,6 +13,8 @@ class Player:
     def update_health(self, delta_health):
         """Update the player's health by the specified amount."""
         self.health += delta_health
+        if self.health>3 :
+            self.health=3
 
     def update_resources(self, delta_resources):
         """Update the player's resources by the specified amount."""

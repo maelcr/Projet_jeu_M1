@@ -4,6 +4,7 @@ import scipy as sp
 import matplotlib.pylab as mp
 from src.person import Player
 import os
+from colorama import Fore, Back, Style
 
 def affichage_map(map, joueur):
 
@@ -22,7 +23,10 @@ def affichage_map(map, joueur):
                                 if(tuille=="0"):    
                                         map_a_print+=(chr(46))
                                 elif(tuille=="1"):    
+                                        map_a_print+=Fore.RED 
+                                        map_a_print+=Back.GREEN 
                                         map_a_print+=(chr(64))
+                                        map_a_print+=Style.RESET_ALL
                                 elif(tuille=="2"):    
                                         map_a_print+=(chr(21))
                                 elif(tuille=="3"):    
@@ -64,7 +68,8 @@ def affichage_map(map, joueur):
                         map_a_print+="      santé du personange :"+str(joueur.health)
                 elif(i== 7):
                         map_a_print+="      richesse du personnage :"+str(joueur.resources)
-
+                        
+                map_a_print+=Style.RESET_ALL
                 map_a_print+="\n"
 
         os.system('cls' if os.name == 'nt' else 'clear')
