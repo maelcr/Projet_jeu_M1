@@ -6,3 +6,6 @@ class Panneau(Caractere):
 
     def traversable(self, joueur):
         return 0
+    
+    def boiteDialogue(self, joueur):
+        return 1

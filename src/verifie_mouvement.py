@@ -25,6 +25,8 @@ def verifie_mouvement(map, joueur, direction):
 
     peux_bouger=1
     traversable=0
+    texte=""
+    fin_du_jeu=0
     if(map[y_position_joueur][x_position_joueur]=="4" or map[y_position_joueur][x_position_joueur]=="5" or map[y_position_joueur][x_position_joueur]=="6" or map[y_position_joueur][x_position_joueur]=="7" ):
         if(map[y_position_joueur][x_position_joueur]=="4" and direction!=0):
             peux_bouger=0
@@ -81,9 +83,13 @@ def verifie_mouvement(map, joueur, direction):
         elif(tuille=="16"):    
             case=EntreeGrotte
         
-        traversable=0
+        
         if(case.traversable(joueur)==1):
             traversable=1
+
+        if(case.boiteDialogue(joueur)==1):
+            #APPEZL FONCTION DIALOGUE
+            texte="***\nPLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER\n***\n"
 
         if(case.enigme()==1):
             question=Quiz("src/questions.xml")
@@ -98,4 +104,35 @@ def verifie_mouvement(map, joueur, direction):
                 if(direction==2):
                     map[y_position_joueur+1][x_position_joueur]="3"
 
-    return map, traversable
+        if(case.trouveTresors(joueur)==1):
+            joueur.update_resources(1)
+            texte="***\nVous avez trouver un trésor, augmentant votre richesse\n***\n"
+            if(direction==0):
+                map[y_position_joueur][x_position_joueur-1]="0"
+            if(direction==1):
+                map[y_position_joueur][x_position_joueur+1]="0"
+            if(direction==3):
+                map[y_position_joueur-1][x_position_joueur]="0"
+            if(direction==2):
+                map[y_position_joueur+1][x_position_joueur]="0"
+        
+        if(case.gagneVie(joueur)==1):
+            texte="***\nVous vous reposez à l'auberge, et regagnez 1 point de vie\n***\n"
+
+        if(case.piege(joueur)==1):
+            texte="***\nVous êtes tomber dans un piege !\n***\n"
+            if(direction==0):
+                map[y_position_joueur][x_position_joueur-1]="0"
+            if(direction==1):
+                map[y_position_joueur][x_position_joueur+1]="0"
+            if(direction==3):
+                map[y_position_joueur-1][x_position_joueur]="0"
+            if(direction==2):
+                map[y_position_joueur+1][x_position_joueur]="0"
+
+        if(case.ending(joueur)==1):
+            fin_du_jeu=1
+            
+
+
+    return map, traversable, texte, fin_du_jeu
