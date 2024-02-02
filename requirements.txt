@@ -1,0 +1,10 @@
+pandas
+numpy
+scipy
+matplotlib
+os
+colorama
+time
+random
+python-csv
+keyboard
