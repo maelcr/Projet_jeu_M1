@@ -21,14 +21,10 @@
       <text>Bienvenu dans la demeure du sphinx. Si vous venez tenter de lui voler son pouvoir, vous rejoindrez les meubles! </text>
     </question>
     <question>
-      <text>Bonjour. Bienvenu dans le manoir du sphinx. Si vous vous êtes égarer je vous conseille de faire demi-tour au plus vite ! 
-Si le maitre avait connaissance de votre présence, vous finiriez transformer en porte, dans le meilleur des cas... 
-Je vous en supplie, rebrousser chemin, et quoi qu'il arrive ne dérangez pas le maitre !</text>
+      <text>Bonjour. Bienvenu dans le manoir du sphinx. Si vous vous êtes égarer je vous conseille de faire demi-tour au plus vite ! Si le maitre avait connaissance de votre présence, vous finiriez transformer en porte, dans le meilleur des cas... Je vous en supplie, rebrousser chemin, et quoi qu'il arrive ne dérangez pas le maitre !</text>
     </question>
     <question>
-      <text>Ho ne faites pas attention à moi, je ne fais que passer le balai... 
-Mais si je pouvez vous donner un conseil, ne vous approchez pas trop de ce qui brille par ici. Le maitre n'aime pas les voleurs, et cet endroit et remplie de piège. 
-...Et comme sa je n'aurais pas à nettoyer vos traces de doigts sur les trésors du maitre.</text>
+      <text>Ho ne faites pas attention à moi, je ne fais que passer le balai... Mais si je pouvez vous donner un conseil, ne vous approchez pas trop de ce qui brille par ici. Le maitre n'aime pas les voleurs, et cet endroit et remplie de piège. ...Et comme sa je n'aurais pas à nettoyer vos traces de doigts sur les trésors du maitre.</text>
     </question>
     <question>
       <text>On peut pas être tranquil ici ?</text>
@@ -40,35 +36,21 @@ Mais si je pouvez vous donner un conseil, ne vous approchez pas trop de ce qui b
       <text>Le pauvre Bob vivait dans cette petite maison, juste à coter. Mais un jour le sphinx, qui était levé du mauvais pied, l'a transformé en porte parlante ! C'est horrible !</text>
     </question>
     <question>
-      <text>Bonjour aventurier. Vous êtes fatigué ? Vous pouvez aller vous reposer dans l'auberge, juste ici. 
-Parler à l'aubergiste au comptoir, et ce dernier vous trouvera une chambre où vous pourrez soigner vos blessures. </text>
+      <text>Bonjour aventurier. Vous êtes fatigué ? Vous pouvez aller vous reposer dans l'auberge, juste ici. Parler à l'aubergiste au comptoir, et ce dernier vous trouvera une chambre où vous pourrez soigner vos blessures. </text>
     </question>
     <question>
-      <text>Ho, bonjour ! Vous êtes nouveau dans le coin ? Hé bien vous avez choisi un bien mauvais moment pour venir visiter notre petit village, aventurier. 
-Un terrible sphinx a élu domicile près de chez nous, par-delà les marais. Il a jeté sur les villageois de terribles sort, les transformant en porte ou autre meubles parlant, et forcer de réciter les terribles énigmes du sphinx ! 
-Si vous voulez en savoir plus vous pouvez en parler au maire dans sa maison, juste à droite. 
-Mais un conseil aventurier : faite demi-tours !</text>
+      <text>Ho, bonjour ! Vous êtes nouveau dans le coin ? Hé bien vous avez choisi un bien mauvais moment pour venir visiter notre petit village, aventurier. Un terrible sphinx a élu domicile près de chez nous, par-delà les marais. Il a jeté sur les villageois de terribles sort, les transformant en porte ou autre meubles parlant, et forcer de réciter les terribles énigmes du sphinx ! Si vous voulez en savoir plus vous pouvez en parler au maire dans sa maison, juste à droite.Mais un conseil aventurier : faite demi-tours !</text>
     </question>
     <question>
       <text>J'ai entendu dire que le maire cache toutes les richesses du village dans son bureau ! Enfin, tout ce qui n'a pas était volé par le sphinx. La richesse, c'est le nerf de la guerre, mais vous devais déjà le savoir, aventurier ! Si seulement j'avais un peu plus d'argent, je pourrais partir de ce lieu maudit...</text>
     </question>
     <question>
-      <text>Bonjour aventurier, je suis le maire de ce village, ou du moins de ce qu'il en reste. 
-Un sphinx tyrannique a élu domicile près d'ici, et il transforme en meuble vivant tous ceux qui ose s'opposer à lui ! 
-Ce village autrefois débordant de vie a été vidée de ses habitant. Je vous en supplie aventurier, trouvez un moyen de lever la malédiction lancer par le sphinx ! 
-Mais faites attention, si ses terribles énigmes ne vous tue pas, ce sera les pièges qu'il cache un peu partout ! </text>
+      <text>Bonjour aventurier, je suis le maire de ce village, ou du moins de ce qu'il en reste. Un sphinx tyrannique a élu domicile près d'ici, et il transforme en meuble vivant tous ceux qui ose s'opposer à lui ! Ce village autrefois débordant de vie a été vidée de ses habitant. Je vous en supplie aventurier, trouvez un moyen de lever la malédiction lancer par le sphinx ! Mais faites attention, si ses terribles énigmes ne vous tue pas, ce sera les pièges qu'il cache un peu partout ! </text>
     </question>
     <question>
-      <text>Houla voyageur, faite attention ! Les marécages que vous voyez devant vous sont dangereux ! 
-Beaucoup on était emporté par ses courant et ses chemin labyrinthique vers des pièges mortel ! 
-Et ce n'est pas tout, au centre du marécage se trouve la maison d'un terrible sorcière, avancer avec la plus grande prudence !</text>
+      <text>Houla voyageur, faite attention ! Les marécages que vous voyez devant vous sont dangereux ! Beaucoup on était emporté par ses courant et ses chemin labyrinthique vers des pièges mortel ! Et ce n'est pas tout, au centre du marécage se trouve la maison d'un terrible sorcière, avancer avec la plus grande prudence !</text>
     </question>
     <question>
-      <text>ho, un visiteur, cela faisait si longtemps ! Entré, n'ayez pas peur, les autres villageois m'appelle peux être "sorcière", mais je ne mords pas ! 
-Enfin, je ne mords plus depuis que le sphinx m'a volé ma baguette. Certes je l'ai utilisé par le passé pour transformer un villageois ou deux en crapaud, oui... Mais c'était il y a un moment déjà ! 
-Le sphinx lui n'a que faire de la finesse, et il transforme les gens à tour de bras ! 
-Moi je ne peux pas le vaincre, je suis trop mauvaise face à ses énigmes. Mais vous... Vous avez peut-être une chance. 
-Aller à l'Est, vers le manoir du sphinx, résolvez ces énigmes, et reprenez la baguette qu'il cache derrière lui ! 
-Cela brisera les sorts qu'il a lancé... et vous penserez à me la rendre après, n'est-ce pas ?</text>
+      <text>ho, un visiteur, cela faisait si longtemps ! Entré, n'ayez pas peur, les autres villageois m'appelle peux être "sorcière", mais je ne mords pas ! Enfin, je ne mords plus depuis que le sphinx m'a volé ma baguette. Certes je l'ai utilisé par le passé pour transformer un villageois ou deux en crapaud, oui... Mais c'était il y a un moment déjà ! Le sphinx lui n'a que faire de la finesse, et il transforme les gens à tour de bras ! Moi je ne peux pas le vaincre, je suis trop mauvaise face à ses énigmes. Mais vous... Vous avez peut-être une chance. Aller à l'Est, vers le manoir du sphinx, résolvez ces énigmes, et reprenez la baguette qu'il cache derrière lui ! Cela brisera les sorts qu'il a lancé... et vous penserez à me la rendre après, n'est-ce pas ?</text>
     </question>
 </questions>
