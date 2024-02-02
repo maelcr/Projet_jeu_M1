@@ -1,7 +1,6 @@
 import pandas as pd 
 import numpy as np
 import scipy as sp
-import matplotlib.pylab as mp
 from src.person import Player
 import os
 from colorama import Fore, Back, Style
