@@ -81,7 +81,7 @@ def verifie_mouvement(map, joueur, direction):
         elif(tuille=="15"):    
             case=PiegeMortel()
         elif(tuille=="16"):    
-            case=EntreeGrotte
+            case=EntreeGrotte()
         
         
         if(case.traversable(joueur)==1):
