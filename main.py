@@ -61,12 +61,6 @@ while fin_du_jeu==0:
         while keyboard.is_pressed("DOWN"):
             time.sleep(0.01)
 
-    elif keyboard.is_pressed("A"):
-        handle_key_press("A", "Function A")
-        #current_position = 0  # Reset the position
-        while keyboard.is_pressed("A"):
-            time.sleep(0.1)
-
     if (joueur.get_health()<=0):
         fin_du_jeu=1
 

@@ -42,6 +42,7 @@ class Quiz:
         self.poser_question_au_hasard()
         self.afficher_question()
 
+        choix_utilisateur =""
         choix_utilisateur = input("Entrez le numéro de votre choix : ")
 
         if self.verifier_reponse(choix_utilisateur):
