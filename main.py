@@ -7,7 +7,9 @@ from src.verifie_mouvement import verifie_mouvement
 joueur=Player(3, 12, 3, 0)
 
 map=lire_map_depuis_doc()
-
+###########################
+#CHANGER CARACTER ASCII DU PIEGE
+############################
 fin_du_jeu=0
 
 while fin_du_jeu==0:
