@@ -17,6 +17,7 @@ from src.Piege import Piege
 from src.PiegeMortel import PiegeMortel
 from src.EntreeGrotte import EntreeGrotte
 from src.quiz import Quiz
+from src.dial import Dialogue
 
 def verifie_mouvement(map, joueur, direction):
 
@@ -130,8 +131,14 @@ def verifie_mouvement(map, joueur, direction):
             if(direction==2):
                 map[y_position_joueur+1][x_position_joueur]="0"
 
+        if(case.boiteDialogue(joueur)==1):
+            dialogue=Dialogue("src/dialogue.xml", joueur, direction)
+            dialogue.jouer()
+            
+
         if(case.ending(joueur)==1):
             fin_du_jeu=1
+
             
 
 

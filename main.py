@@ -3,11 +3,8 @@ from src.clavier_jeu import *
 from src.person import Player
 from src.import_map_csv import lire_map_depuis_doc
 from src.verifie_mouvement import verifie_mouvement
-#######################################################################
-#PENSER A IMPORTER COLORAMA POUR METTRES CERTAIN CARACTERE EN COULEUR
-#######################################################################
 
-joueur=Player(106, 11, 3, 0)
+joueur=Player(3, 12, 3, 0)
 
 map=lire_map_depuis_doc()
 
