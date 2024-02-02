@@ -15,7 +15,7 @@ while fin_du_jeu==0:
     texte=""
 
     if keyboard.is_pressed("LEFT"):
-        handle_key_press("LEFT", "L")
+        handle_key_press("LEFT", "")
         map, traversable, texte, fin_du_jeu=verifie_mouvement(map, joueur, 0)
         if(traversable==1):
             joueur.move(-1, 0)
@@ -26,7 +26,7 @@ while fin_du_jeu==0:
             time.sleep(0.01)
 
     elif keyboard.is_pressed("RIGHT"):
-        handle_key_press("RIGHT", "R")
+        handle_key_press("RIGHT", "")
         map, traversable, texte, fin_du_jeu=verifie_mouvement(map, joueur, 1)
         if(traversable==1):
             joueur.move(+1, 0)
@@ -37,7 +37,7 @@ while fin_du_jeu==0:
             time.sleep(0.01)
 
     elif keyboard.is_pressed("UP"):
-        handle_key_press("UP", "U")
+        handle_key_press("UP", "")
         map, traversable, texte, fin_du_jeu=verifie_mouvement(map, joueur, 3)
         if(traversable==1):
             joueur.move(0, -1)
@@ -48,7 +48,7 @@ while fin_du_jeu==0:
             time.sleep(0.01)
 
     elif keyboard.is_pressed("DOWN"):
-        handle_key_press("DOWN", "D")
+        handle_key_press("DOWN", "")
         map, traversable, texte, fin_du_jeu=verifie_mouvement(map, joueur, 2)
         if(traversable==1):
             joueur.move(0, +1)
@@ -64,6 +64,6 @@ while fin_du_jeu==0:
     time.sleep(0.1)
 
 if (joueur.get_health()<=0):
-    print("Fin du jeux. Vous êtes malheureusement mort dans un piege.")
+    print("##########\nFin du jeux. Vous êtes malheureusement mort dans un piege.\n##########")
 else:
-    print("Fin du jeux. Bien joué, vous avez atteint la fin du niveau !")
+    print("##########\nFin du jeux. Bien joué, vous avez atteint la fin du niveau !\n##########")

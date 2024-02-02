@@ -87,11 +87,7 @@ def verifie_mouvement(map, joueur, direction):
         
         if(case.traversable(joueur)==1):
             traversable=1
-
-        if(case.boiteDialogue(joueur)==1):
-            #APPEZL FONCTION DIALOGUE
-            texte="***\nPLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER\n***\n"
-
+            
         if(case.enigme()==1):
             question=Quiz("src/questions.xml")
             ouverture_porte=question.jouer()

@@ -30,7 +30,7 @@ class Dialogue:
 
         if (x_position_joueur==8 and y_position_joueur==10):
             dialogue = tree.getroot()[0]  
-        elif (x_position_joueur==24 and y_position_joueur==14):
+        elif (x_position_joueur==24 and y_position_joueur==15):
             dialogue = tree.getroot()[1] 
         elif (x_position_joueur==44 and y_position_joueur==8):
             dialogue = tree.getroot()[2]  
@@ -42,26 +42,28 @@ class Dialogue:
             dialogue = tree.getroot()[5]
         elif (x_position_joueur==80 and y_position_joueur==12):
             dialogue = tree.getroot()[6]
+        elif (x_position_joueur==88 and y_position_joueur==11):
+            dialogue = tree.getroot()[7]
         elif (x_position_joueur==87 and y_position_joueur==19):
-            dialogue = tree.getroot()[7] 
+            dialogue = tree.getroot()[8] 
         elif (x_position_joueur==8 and y_position_joueur==20):
-            dialogue = tree.getroot()[8]
-        elif (x_position_joueur==8 and y_position_joueur==19):
             dialogue = tree.getroot()[9]
-        elif (x_position_joueur==26 and y_position_joueur==21):
-            dialogue = tree.getroot()[10]  
-        elif (x_position_joueur==28 and y_position_joueur==15):
+        elif (x_position_joueur==8 and y_position_joueur==19):
+            dialogue = tree.getroot()[10]
+        elif (x_position_joueur==26 and y_position_joueur==20):
             dialogue = tree.getroot()[11]  
-        elif (x_position_joueur==21 and y_position_joueur==9):
+        elif (x_position_joueur==28 and y_position_joueur==15):
             dialogue = tree.getroot()[12]  
-        elif (x_position_joueur==23 and y_position_joueur==6):
+        elif (x_position_joueur==21 and y_position_joueur==9):
             dialogue = tree.getroot()[13]  
-        elif (x_position_joueur==41 and y_position_joueur==7):
+        elif (x_position_joueur==23 and y_position_joueur==5):
             dialogue = tree.getroot()[14]  
-        elif (x_position_joueur==41 and y_position_joueur==14):
+        elif (x_position_joueur==41 and y_position_joueur==7):
             dialogue = tree.getroot()[15]  
-        elif (x_position_joueur==56 and y_position_joueur==6):
+        elif (x_position_joueur==41 and y_position_joueur==14):
             dialogue = tree.getroot()[16]  
+        elif (x_position_joueur==56 and y_position_joueur==6):
+            dialogue = tree.getroot()[17]  
         
           
         return dialogue
