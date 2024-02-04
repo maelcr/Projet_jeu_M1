@@ -55,10 +55,10 @@ def affichage_map(map, joueur):
                                 elif(tuille=="12"):    
                                         map_a_print+=(chr(63))
                                 elif(tuille=="13"):    
-                                        map_a_print+=(chr(14))
+                                        map_a_print+=("♫")
                                 elif(tuille=="14"):
                                         map_a_print+=Fore.RED    
-                                        map_a_print+=(chr(15))
+                                        map_a_print+=("o")
                                         map_a_print+=Style.RESET_ALL
                                 elif(tuille=="15"): 
                                         map_a_print+=Fore.WHITE 
