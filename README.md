@@ -56,7 +56,7 @@ Bienvenue dans "Les Épreuves du Sphinx", une aventure énigmatique où vous dev
   - Un piège mortel que le joueur peut traverser. Si le joueur le traverse, il meurt, et la partie est finie.
 
 **Entrée de Grotte/Donjon, Traversable (16)**
-  - Une entrée de grotte ou de donjon que le joueur peut traverser. En le traversant, le joueur est téléporté sur une nouvelle carte.
+  - Une entrée de grotte ou de donjon que le joueur peut traverser. En le traversant, le joueur termine le jeu.
 
 ## Comment Jouer
 
@@ -65,12 +65,12 @@ Bienvenue dans "Les Épreuves du Sphinx", une aventure énigmatique où vous dev
    - Utilisez les touches directionnelles pour déplacer le personnage.
 
 2. **Interaction avec les Éléments**
-   - Approchez-vous des portes, trésors, marchands, etc., pour interagir avec eux.
+   - Approchez-vous des portes, trésors, marchands... pour interagir avec eux.
 
 3. **Résolution d'Énigmes**
    - Soyez prêt à répondre aux énigmes du Sphinx et à relever les défis qui se présentent.
 
 4. **Objectif**
-   - Explorez le monde, résolvez les énigmes, et atteignez l'entrée de la grotte/donjon pour passer à un nouveau niveau.
+   - Explorez le monde, résolvez les énigmes, et atteignez l'entrée de la grotte/donjon.
 
 Que l'aventure commence ! 🗝🔍✨
