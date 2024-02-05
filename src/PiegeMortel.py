@@ -1,6 +1,7 @@
 from src.Caractere import Caractere
 
 class PiegeMortel(Caractere):
+    #voir classe parenjte Caractere()
     def __init__(self):
         super().__init__(chr(19))  # symbole ""
 
