@@ -21,7 +21,7 @@ while fin_du_jeu==0:
         map, traversable, texte, fin_du_jeu=verifie_mouvement(map, joueur, 0)
         if(traversable==1):
             joueur.move(-1, 0)
-        os.system('cls')
+        os.system('cls' if os.name == 'nt' else 'clear')
         affichage_map(map, joueur)
         print(texte)
         while keyboard.is_pressed("LEFT"):
@@ -32,7 +32,7 @@ while fin_du_jeu==0:
         map, traversable, texte, fin_du_jeu=verifie_mouvement(map, joueur, 1)
         if(traversable==1):
             joueur.move(+1, 0)
-        os.system('cls')
+        os.system('cls' if os.name == 'nt' else 'clear')
         affichage_map(map, joueur)
         print(texte)
         while keyboard.is_pressed("RIGHT"):
@@ -43,7 +43,7 @@ while fin_du_jeu==0:
         map, traversable, texte, fin_du_jeu=verifie_mouvement(map, joueur, 3)
         if(traversable==1):
             joueur.move(0, -1)
-        os.system('cls')
+        os.system('cls' if os.name == 'nt' else 'clear')
         affichage_map(map, joueur)
         print(texte)
         while keyboard.is_pressed("UP"):
@@ -54,7 +54,7 @@ while fin_du_jeu==0:
         map, traversable, texte, fin_du_jeu=verifie_mouvement(map, joueur, 2)
         if(traversable==1):
             joueur.move(0, +1)
-        os.system('cls')
+        os.system('cls' if os.name == 'nt' else 'clear')
         affichage_map(map, joueur)
         print(texte)
         while keyboard.is_pressed("DOWN"):

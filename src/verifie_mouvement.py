@@ -18,6 +18,7 @@ from src.PiegeMortel import PiegeMortel
 from src.EntreeGrotte import EntreeGrotte
 from src.quiz import Quiz
 from src.dial import Dialogue
+import os 
 
 def verifie_mouvement(map, joueur, direction):
 
@@ -89,7 +90,8 @@ def verifie_mouvement(map, joueur, direction):
             traversable=1
             
         if(case.enigme()==1):
-            question=Quiz("src/questions.xml")
+            questions_file_path = os.path.join("src", "questions.xml")
+            question = Quiz(questions_file_path)
             ouverture_porte=question.jouer()
             if(ouverture_porte==1):
                 if(direction==0):
@@ -128,7 +130,8 @@ def verifie_mouvement(map, joueur, direction):
                 map[y_position_joueur+1][x_position_joueur]="0"
 
         if(case.boiteDialogue(joueur)==1):
-            dialogue=Dialogue("src/dialogue.xml", joueur, direction)
+            dialogue_file_path = os.path.join("src", "dialogue.xml")
+            dialogue = Dialogue(dialogue_file_path, joueur, direction)
             dialogue.jouer()
             
 

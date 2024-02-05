@@ -16,44 +16,44 @@ def affichage_map(map, joueur):
                 for j in range(len(map[i])): 
 
                         if(j==x_position_joueur and i==y_position_joueur):
-                                map_a_print+=(chr(35))
+                                map_a_print+=("#")
                         else :
                                 tuille = map[i][j]
                                 if(tuille=="0"):  
                                         map_a_print+=Fore.WHITE  
-                                        map_a_print+=(chr(46))
+                                        map_a_print+=(".")
                                         map_a_print+=Style.RESET_ALL
                                 elif(tuille=="1"):    
                                         map_a_print+=Fore.RED 
                                         map_a_print+=Back.GREEN 
-                                        map_a_print+=(chr(64))
+                                        map_a_print+=("@")
                                         map_a_print+=Style.RESET_ALL
                                 elif(tuille=="2"):  
                                         map_a_print+=Fore.BLUE  
-                                        map_a_print+=(chr(21))
+                                        map_a_print+=("§")
                                         map_a_print+=Style.RESET_ALL
                                 elif(tuille=="3"):    
-                                        map_a_print+=(chr(47))
+                                        map_a_print+=("/")
                                 elif(tuille=="4"):    
-                                        map_a_print+=(chr(27))
+                                        map_a_print+=("b")
                                 elif(tuille=="5"):    
-                                        map_a_print+=(chr(26))
+                                        map_a_print+=("→")
                                 elif(tuille=="6"):    
-                                        map_a_print+=(chr(25))
+                                        map_a_print+=("↓")
                                 elif(tuille=="7"):    
-                                        map_a_print+=(chr(24))
+                                        map_a_print+=("↑")
                                 elif(tuille=="8"):
                                         map_a_print+=Fore.YELLOW    
-                                        map_a_print+=(chr(36))
+                                        map_a_print+=("$")
                                         map_a_print+=Style.RESET_ALL
                                 elif(tuille=="9"):    
-                                        map_a_print+=(chr(77))
+                                        map_a_print+=("M")
                                 elif(tuille=="10"):    
-                                        map_a_print+=(chr(20))
+                                        map_a_print+=("¶")
                                 elif(tuille=="11"):    
-                                        map_a_print+=(chr(33))
+                                        map_a_print+=("!")
                                 elif(tuille=="12"):    
-                                        map_a_print+=(chr(63))
+                                        map_a_print+=("?")
                                 elif(tuille=="13"):    
                                         map_a_print+=("♫")
                                 elif(tuille=="14"):
@@ -63,10 +63,10 @@ def affichage_map(map, joueur):
                                 elif(tuille=="15"): 
                                         map_a_print+=Fore.WHITE 
                                         map_a_print+=Back.BLACK  
-                                        map_a_print+=(chr(19))
+                                        map_a_print+=("‼")
                                         map_a_print+=Style.RESET_ALL
                                 elif(tuille=="16"):    
-                                        map_a_print+=(chr(23))
+                                        map_a_print+=("↨")
                                 else:
                                         map_a_print+="-"
 
