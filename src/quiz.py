@@ -3,6 +3,10 @@ import random
 import time
 
 class Quiz:
+    """
+    Cette classe, de maniére similaire à Dialogue(), vient sortir des question d'un fichier xml. La difference est ici que les questions sont 
+    aléatoire et que chaque question demande un input, et demande un input correcte pour renvoyer que la réponse est vrais. 
+    """
     def __init__(self, nom_fichier):
         self.questions = self.charger_questions_depuis_xml(nom_fichier)
         self.question_choisie = None

@@ -6,6 +6,16 @@ import os
 from colorama import Fore, Back, Style
 
 def affichage_map(map, joueur):
+        """
+        input : map, une liste de liste
+                joueur : une instance de la classe Player()
+        output: rien, cette fonction ne fait que print
+        Cette fonction fait le lien entre les information du csv et l'affichage en ascii. En effet, la map est sauvegarder dans le document csv
+        Comme une suite de chiffre de 0 à 16. Cela representes les 17 case possibles pouvant être afficher pour faire la map.
+        Il faut ensuite transformer ces chiffres en caractere ascci. C'est ce que fait cette fonction. Elle vérifie une à une toutes les cases
+        et y associe le bon caractere ascii.
+        Cette fonction sert aussi à mettre en forme les caractere grace à colorama avant de les afficher
+        """
 
         map_a_print=""
         x_position_joueur=joueur.x
@@ -14,7 +24,7 @@ def affichage_map(map, joueur):
 
         for i in range(len(map)):
                 for j in range(len(map[i])): 
-
+                        #On verifie si le joueur est présent sur la case. Si oui, on affiche le joueur, sinon on affiche la case normalement
                         if(j==x_position_joueur and i==y_position_joueur):
                                 map_a_print+=Back.RED
                                 map_a_print+=("#")
@@ -71,7 +81,7 @@ def affichage_map(map, joueur):
                                         map_a_print+=("↨")
                                 else:
                                         map_a_print+="-"
-
+                #On affiche aussi les informations du joueur à coté de la map
                 if(i== 1):
                         map_a_print+="      position x :"+str(joueur.x)
                 elif(i== 3):

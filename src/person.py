@@ -1,4 +1,5 @@
 class Player:
+#Cette classe sauvegarde les informations du personnage du joueur : la position, la vie, la richesse. Elle contient certaines méthodes pour les modifier
     def __init__(self, x, y, health, resources):
         self.x = x
         self.y = y

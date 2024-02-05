@@ -12,6 +12,15 @@ class Dialogue:
         
 
     def charger_dialogue_depuis_xml(self, nom_fichier):
+        """
+        input : nom_fichier, nom du fichier xml contenant les dialogues
+        output: dialogue, un str qui contient un texte, ici un dialogue
+        Cette fonction est appeller quand le joueur entre en contacte avec une entité (une personne ou un panneau), ayant la carateristique
+        d'avoir un dialogue. Dès qu'un dialogue est détécter, cette fonction est appeller pour trouver lequel. En effet, nous avons tout les 
+        dialogues du jeu sauvegarder dans un fichier xml. Cette fonction vas donc vérifier la position du joueur, la case avec laquel il est
+        entré en contact (d'ou la direction) et vérifier quel dialogue correspond à ces coordonné. Cela est possible car les zonnes de dialogue
+        sont fixent sur la map. 
+        """
         tree = ET.parse(nom_fichier)
         dialogue=""
         

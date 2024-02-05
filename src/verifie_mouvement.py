@@ -21,6 +21,18 @@ from src.dial import Dialogue
 import os 
 
 def verifie_mouvement(map, joueur, direction):
+    """
+    input : map, une liste de liste
+            joueur : une instance de la classe Player()
+            direction : un int de 0 à 3 indiquant dans quel direction le joueur veux se déplacer depuis sa position actuel
+    output: map, une liste de liste
+            traversable, un int indiquand si le mouvement du personage est valide ou non
+            texte, un str à afficher donnant des indication aux joueur
+            fin_du_jeu, un int
+    Cette fonction gére tout le déplacement du jeu. Elle vient d'abord vérifier si le joueur n'est pas présent sur une case fléche, qui limite ces
+    mouvement. Elle vérifie ensuite la case sur laquel le joueur veux se déplacer, lui créant une instance du type de case en question.
+    La fonction vérifie ensuite si le joueur peux aller sur cette case et aplique tout les effets necesaie (des pieges au dialogue)
+    """
 
     x_position_joueur=joueur.x
     y_position_joueur=joueur.y
@@ -50,6 +62,7 @@ def verifie_mouvement(map, joueur, direction):
         if(direction==2):
             tuille = map[y_position_joueur+1][x_position_joueur]
 
+        #On crée une instance de la classe corespondante à la case visée
         if(tuille=="0"):    
             case=CaseVide()
         elif(tuille=="1"):    
@@ -94,6 +107,7 @@ def verifie_mouvement(map, joueur, direction):
             question = Quiz(questions_file_path)
             ouverture_porte=question.jouer()
             if(ouverture_porte==1):
+                #Une fois la porte ouverte on change le caractere ascii pour avoir une porte ouverte
                 if(direction==0):
                     map[y_position_joueur][x_position_joueur-1]="3"
                 if(direction==1):
@@ -106,6 +120,7 @@ def verifie_mouvement(map, joueur, direction):
         if(case.trouveTresors(joueur)==1):
             joueur.update_resources(1)
             texte="***\nVous avez trouver un trésor, augmentant votre richesse\n***\n"
+            #Une fois que le joueur  marche sur un trésors on le remplace par une case vide
             if(direction==0):
                 map[y_position_joueur][x_position_joueur-1]="0"
             if(direction==1):
@@ -120,6 +135,7 @@ def verifie_mouvement(map, joueur, direction):
 
         if(case.piege(joueur)==1):
             texte="***\nVous êtes tomber dans un piege !\n***\n"
+            #Une fois que le joueur  marche sur un piege on le remplace par une case vide
             if(direction==0):
                 map[y_position_joueur][x_position_joueur-1]="0"
             if(direction==1):
