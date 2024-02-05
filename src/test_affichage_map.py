@@ -16,7 +16,9 @@ def affichage_map(map, joueur):
                 for j in range(len(map[i])): 
 
                         if(j==x_position_joueur and i==y_position_joueur):
+                                map_a_print+=Back.RED
                                 map_a_print+=("#")
+                                map_a_print+=Style.RESET_ALL
                         else :
                                 tuille = map[i][j]
                                 if(tuille=="0"):  
