@@ -2,6 +2,4 @@ pandas
 numpy
 scipy
 colorama
-random
-python-csv
 keyboard
